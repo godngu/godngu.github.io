@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Kiljun, Jeong"
-  avatar           : "/assets/images/developer.png"
+  avatar           : "/assets/images/profile/developer.png"
   bio              : "인내는 쓰고 열매는 달다"
   location         : "Paradise"
   email            : "godngu@gmail.com"
