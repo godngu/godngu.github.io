@@ -16,18 +16,18 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : ""
+title                    : "여기에다 뭘 쓸까?"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Kiljun, Jeong"
 description              : "An amazing website."
-url                      : https://godngu.github.io 
-baseurl                  : / 
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+url                      : https://godngu.github.io
+baseurl                  : /blog
+repository               : kil # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Kiljun, Jeong"
   avatar           : "/assets/images/developer.png"
-  bio              : "I am an **amazing** person."
+  bio              : "인내는 쓰고 열매는 달다"
   location         : "Paradise"
   email            : "godngu@gmail.com"
   links:
@@ -209,7 +209,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -276,6 +276,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
