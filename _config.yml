@@ -93,11 +93,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Kiljun, Jeong"
+  avatar           : "/assets/images/developer.png"
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  location         : "Paradise"
+  email            : "godngu@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
