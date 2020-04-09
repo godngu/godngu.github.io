@@ -1,7 +1,7 @@
 ---
 title: "맥북 에버노트에서 따옴표, 대시 자동완성 끄기"
-permalink: /etc/
-excerpt: ""
+permalink: /etc/evernote-autocomplete-disable
+excerpt: "OS X에 설치된 에버노트 사용시 자동완성에 의해서 따옴표와 대시가 자동 변환되는 문제를 해결합니다."
 last_modified_at: 2020-04-09
 categories:
   - etc
