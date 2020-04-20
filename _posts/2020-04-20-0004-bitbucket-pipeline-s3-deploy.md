@@ -1,5 +1,5 @@
 ---
-title: "AWS CodeDeploy에서 환경변수 적용하는 방법"
+title: "Bitbucket pipeline을 통한 S3 deploy"
 permalink: /aws/s3-deploy-bitbucket-pipeline
 excerpt: "Bitbucket pipeline을 통한 S3 Deploy"
 last_modified_at: 2020-04-20
