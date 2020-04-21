@@ -1,7 +1,7 @@
 ---
 title: "Bitbucket pipeline을 통한 S3 deploy"
 permalink: /aws/s3-deploy-bitbucket-pipeline
-excerpt: "Bitbucket pipeline을 통한 S3 Deploy"
+excerpt: "Bitbucket pipeline 기능을 활용하여 새로운 소스가 push되면 정해진 브랜치를 통해서 S3로 자동 Deploy 되도록 설정 합니다."
 last_modified_at: 2020-04-20
 categories:
   - aws
