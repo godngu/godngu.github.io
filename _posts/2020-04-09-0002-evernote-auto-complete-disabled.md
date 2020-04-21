@@ -11,6 +11,8 @@ tags:
   - 에버노트 자동완성
   - evernote autocomplete disable
 author_profile: true
+header:
+  teaser: /assets/images/blog/0002/img01.png
 ---
 
 ### 문제점

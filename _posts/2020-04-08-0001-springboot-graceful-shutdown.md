@@ -10,6 +10,8 @@ tags:
   - spring boot
   - gracefully shutdown
 author_profile: true
+header:
+  teaser: /assets/images/blog/0001/img01.png
 ---
 
 ### 일반적인 재기동 프로세스

@@ -13,6 +13,8 @@ tags:
   - pipeline
   - s3 deploy
 #author_profile: true
+header:
+  teaser: /assets/images/blog/0004/0004_teaser.png
 ---
 ## S3
 ### 버킷 생성
@@ -61,6 +63,7 @@ __bitbucket-pipeline.yml이 잘 등록되고 배포된 결과__
 ### 비트버킷 파이프라인에 S3 Deploy 설정 등록
 > `branches`에 develop/master 브랜치 별로 설정합니다.
 > `LOCAL_PATH`는 배포가 될 대상 디렉토리이며, contents 디렉토리는 배포되지 않고 그 내부 파일과 디렉토리가 배포됩니다.
+
 ```yaml
 image: atlassian/default-image:2
 

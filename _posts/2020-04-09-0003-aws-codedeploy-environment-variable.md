@@ -13,6 +13,8 @@ tags:
   - 환경변수
   - environment variable
 #author_profile: true
+header:
+  teaser: /assets/images/blog/0003/teaser.png
 ---
 
 ## 환경변수를 사용 한 이유
