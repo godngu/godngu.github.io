@@ -10,6 +10,10 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
 kil:
   - title: Getting Started
     children:
