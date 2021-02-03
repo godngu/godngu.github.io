@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" #"default" "air", "aqua", "contrast", "dark
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "고등어의 개발 블로그1"
+title                    : "고등어의 개발 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Kiljun, Jeong"
@@ -26,7 +26,7 @@ baseurl                  : /
 repository               : godngu/godngu.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/godngu_default_teaser.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "개발은 잼있어"
+masthead_title           : 
 breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 
@@ -271,7 +271,12 @@ defaults:
       comments: true
       share: true
       related: true
-      classes: wide
+      classes: 
+      toc: true # 오른쪽 부분에 목차를 자동 생성해준다.
+      toc_label: "Index" # toc 이름 설정
+      toc_icon: "bars" # 아이콘 설정
+      toc_sticky: true # 마우스 스크롤과 함께 내려갈 것인지 설정
+
   # _pages 부분입니다.
   - scope:
       path: "_pages"
