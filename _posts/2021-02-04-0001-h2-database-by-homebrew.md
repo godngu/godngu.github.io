@@ -13,7 +13,7 @@ tags:
   - homebrew
 author_profile: true
 header:
-  teaser: /assets/images/blog/2021/teaser.png
+  teaser: /assets/images/blog/2021/0001/teaser.png
 ---
 
 # 설치
