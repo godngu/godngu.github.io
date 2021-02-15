@@ -16,23 +16,23 @@ header:
   teaser: /assets/images/blog/2021/0001/teaser.png
 ---
 
-# 설치
+## 설치
 ```bash
 $ brew install h2
 ```
 
-# 실행
+## 실행
 ```bash
 $ h2
 ```
 
-# 연결시 아래와 같은 오류 발생할 때
+## 연결시 아래와 같은 오류 발생할 때
 ![](/assets/images/blog/2021/0001/image01.png)
 
-## 원인
+### 원인
 - test라는 데이터베이스가 존재하지 않기 때문.
 
-## 해결
+### 해결
 - 아래와 같이 설정한 후 ~~[연결시험]~~이 아닌 **[연결]**을 실행한다.
     - 설정
       - Generic H2 (Server)

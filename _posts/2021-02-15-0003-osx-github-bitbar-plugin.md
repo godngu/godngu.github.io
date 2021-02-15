@@ -13,16 +13,20 @@ tags:
   - bitbar
 author_profile: true
 header:
-  teaser: /assets/images/blog/2021/0003/teaser.png
+  teaser: /assets/images/blog/2021/0003/teaser.jpg
 ---
-# 🌱☘️ 1일1커밋이란?
-- 개발자라면 누구나 [`github`](https://github.com/godngu)에 잔디 심는 목표를 가져 봤을 겁니다.. ~~(물론 난 최근에 목표를 세웠다..)~~
-- 매일 브라우저를 통해 github에 들어가 잔디를 확인 하는건 여간 귀찮은 작업이 아닐 수 없습니다.
-- [`BitBar`](https://getbitbar.com/)를 사용하면 데스크탑에서 Github 잔디 상태를 손쉽게 확인 할 수 있습니다. :sparkles:
+
+![](/assets/images/blog/2021/0003/teaser.jpg)    
 
 
+## 🌱1일1커밋
+개발자라면 누구나 [`github`](https://github.com/godngu)에 잔디 심는 목표를 가져 봤을 겁니다.. ~~(물론 전 최근에 목표를 세웠습니다 ^^;;)~~
+하지만 매일 브라우저를 통해 github에 들어가 잔디를 확인 하는건 여간 귀찮은 작업이 아닐 수 없습니다.
+이 때 [`BitBar`](https://getbitbar.com/)를 사용하면 데스크탑에서 Github 잔디 상태를 손쉽게 확인 할 수 있습니다. :sparkles:  
 
-# BitBar 설치
+
+## BitBar 설치
+
 - [`BitBar`](https://getbitbar.com/)
 - [`BitBar Github`](https://github.com/matryer/bitbar#get-started)
 
@@ -48,8 +52,7 @@ $ brew install --cask bitbar
 %
 ```
 
-# Github 플러그인 설치
-
+## Github 플러그인 설치
 ### 플러그인 디렉터리 생성
 ```bash
 $ mkdir ~/dev/workspace/private/blog/bitbar-plugins
@@ -61,6 +64,7 @@ $ mkdir ~/dev/workspace/private/blog/bitbar-plugins
 
 이 중 Github 플러그인을 다운로드 받아야 합니다.
 > https://github.com/matryer/bitbar-plugins/blob/master/Dev/GitHub/github-contribution.10m.rb
+
 ![](/assets/images/blog/2021/0003/image03.png)
 
 ```bash
@@ -80,35 +84,35 @@ max_contributions = 10
 ```
 
 
-# BitBar 설정
-
+## BitBar 설정
 ### 실행
 - 마우스 우클릭 후 `열기`로 실행합니다.
 ![](/assets/images/blog/2021/0003/image01.png)
 
 ### 플러그인 디렉터리 변경
 - 처음 설치시 :warning:표시로 나오는데 디렉터리를 변경하면 아이콘이 `BitBar`로 바뀝니다.
+
 ```bash
 $ ~/dev/workspace/private/blog/bitbar-plugins
 ```
-![](/assets/images/blog/2021/0003/image02.png)
+![](/assets/images/blog/2021/0003/image02.png){: width="400px"}{: .center}
 
 
-# 완료:smile:
-![](/assets/images/blog/2021/0003/image04.png)
+## 완료 :smile:
+![](/assets/images/blog/2021/0003/image04.png){: width="400px"}{: .center}
 
 
-# 이모지 변경 팁
+## 이모지 변경 팁
 상태바에서 :poop: emoji를 :rage:로 변경 해보겠습니다.
 
-emoji 참고
-> https://www.webfx.com/tools/emoji-cheat-sheet/
-![](/assets/images/blog/2021/0003/image05.png)
+> Link: [emoji 참고](https://www.webfx.com/tools/emoji-cheat-sheet/)
+
+![](/assets/images/blog/2021/0003/image05.png){: width="500px"}{: .center}
 
 ```bash
 $ vim github-contribution.10m.rb
 
-# ...
+...
 def icon
   case count
   # emoji 변경
@@ -119,7 +123,8 @@ def icon
   else           ':deciduous_tree:'
   end
 end
-# ...
+...
 ```
 
-![](/assets/images/blog/2021/0003/image06.png)
+
+![](/assets/images/blog/2021/0003/image06.png){: width="400px"}{: .center}
