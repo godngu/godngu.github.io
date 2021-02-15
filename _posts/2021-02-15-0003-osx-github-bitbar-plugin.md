@@ -78,8 +78,6 @@ $ vim ~/.bitbarrc
 username = <GITHUB_USERNAME>
 max_contributions = 10
 ```
-:hankey::hammer::clown_face:
-:poop:
 
 
 # BitBar 설정
