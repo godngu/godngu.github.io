@@ -19,13 +19,13 @@ header:
 ![](/assets/images/blog/2021/0003/teaser.jpg)    
 
 
-## 🌱1일1커밋
+## :seedling: 1일1커밋
 개발자라면 누구나 [`github`](https://github.com/godngu)에 잔디 심는 목표를 가져 봤을 겁니다.. ~~(물론 전 최근에 목표를 세웠습니다 ^^;;)~~
 하지만 매일 브라우저를 통해 github에 들어가 잔디를 확인 하는건 여간 귀찮은 작업이 아닐 수 없습니다.
 이 때 [`BitBar`](https://getbitbar.com/)를 사용하면 데스크탑에서 Github 잔디 상태를 손쉽게 확인 할 수 있습니다. :sparkles:  
 
 
-## BitBar 설치
+## :hammer: BitBar 설치
 
 - [`BitBar`](https://getbitbar.com/)
 - [`BitBar Github`](https://github.com/matryer/bitbar#get-started)
@@ -52,7 +52,7 @@ $ brew install --cask bitbar
 %
 ```
 
-## Github 플러그인 설치
+## :file_folder: Github 플러그인 설치
 ### 플러그인 디렉터리 생성
 ```bash
 $ mkdir ~/dev/workspace/private/blog/bitbar-plugins
@@ -84,7 +84,7 @@ max_contributions = 10
 ```
 
 
-## BitBar 설정
+## :coffee: BitBar 설정
 ### 실행
 - 마우스 우클릭 후 `열기`로 실행합니다.
 ![](/assets/images/blog/2021/0003/image01.png)
@@ -98,11 +98,11 @@ $ ~/dev/workspace/private/blog/bitbar-plugins
 ![](/assets/images/blog/2021/0003/image02.png){: width="400px"}{: .center}
 
 
-## 완료 :smile:
+## :smile: 완료
 ![](/assets/images/blog/2021/0003/image04.png){: width="400px"}{: .center}
 
 
-## 이모지 변경 팁
+## :fishing_pole_and_fish: 이모지 변경 팁
 상태바에서 :poop: emoji를 :rage:로 변경 해보겠습니다.
 
 > Link: [emoji 참고](https://www.webfx.com/tools/emoji-cheat-sheet/)
