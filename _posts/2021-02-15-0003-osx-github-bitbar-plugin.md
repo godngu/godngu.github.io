@@ -1,5 +1,5 @@
 ---
-title: "MAC에서 github 1일 1커밋 도와주는 플러그인 설정하기"
+title: "OS X에서 Github 1일 1커밋 도와주는 플러그인 설정하기"
 permalink: /github/osx-github-bitbar-plugin
 excerpt: "OS X에서 github의 1일1커밋 목표를 도와주는 플러그인 사용법."
 last_modified_at: 2021-02-15
