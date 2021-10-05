@@ -19,7 +19,7 @@ header:
 
 - VSCode의 `*.vue` 파일에서 컴포넌트 임포트시 kebabcase로 임포트 됨.
 
-  ![image01.png](/assets/images/blog/2021/0004/image01.png)
+![image01.png](/assets/images/blog/2021/0004/image01.png)
 
 ## 목표
 
