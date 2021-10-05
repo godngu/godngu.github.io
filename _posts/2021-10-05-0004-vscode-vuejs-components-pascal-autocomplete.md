@@ -5,7 +5,6 @@ excerpt: "VSCode에서 vue.js의 components 임포트시 파스칼케이스로 �
 last_modified_at: 2021-10-05
 categories:
   - vscode
-  - vuejs
   - vue.js
 tags:
   - vscode
