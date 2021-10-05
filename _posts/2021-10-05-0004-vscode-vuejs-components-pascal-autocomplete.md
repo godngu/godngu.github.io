@@ -13,10 +13,8 @@ tags:
   - vue.js
 author_profile: true
 header:
-  teaser: /assets/images/blog/2021/0004/teaser.jpg
+  teaser: /assets/images/blog/2021/0004/teaser.png
 ---
-
-# Vue 컴포넌트 Pascalcase로 임포트 하기
 
 ## 증상
 
