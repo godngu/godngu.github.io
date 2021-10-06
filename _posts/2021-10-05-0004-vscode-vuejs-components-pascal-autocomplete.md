@@ -1,6 +1,6 @@
 ---
 title: "Vue 컴포넌트 Pascalcase로 임포트 하기"
-permalink: /github/vscode-vuejs-pascalcase-autocomplete
+permalink: /vscode/vscode-vuejs-pascalcase-autocomplete
 excerpt: "VSCode에서 vue.js의 components 임포트시 파스칼케이스로 임포트 하기 위한 설정."
 last_modified_at: 2021-10-05
 categories:
