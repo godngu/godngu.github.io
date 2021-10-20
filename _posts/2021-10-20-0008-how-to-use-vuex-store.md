@@ -16,8 +16,6 @@ header:
   teaser: /assets/images/blog/2021/0008/teaser.png
 ---
 
-# Vuex의 store 기본 사용법
-
 ## 기본 문법
 
 - `state`에 값을 저장한다.
