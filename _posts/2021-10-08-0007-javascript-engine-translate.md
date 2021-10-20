@@ -14,7 +14,7 @@ header:
 
 ## 예제 코드
 
-```jsx
+```javascript
 function book() {
   debugger;
   var title = "hello";

@@ -23,21 +23,20 @@ header:
 - `state`에 값을 저장한다.
 - `mutations`로 state의 값을 변경한다.
   - `commit` 함수를 사용한다.
-  ```jsx
+  ```javascript
   this.$store.commit("함수명", 변수값);
   this.$store.commit("setUsername", "Something text");
   ```
 - `getters`로 값을 가져온다.
 - mutations, getters에서는 **기본 인자로 state를 받는다.**
-
-```jsx
-getters: {
-	functionA(state) {}
-},
-mutations: {
-	functionB(state) {}
-}
-```
+  ```javascript
+  getters: {
+      functionA(state) {}
+  },
+  mutations: {
+      functionB(state) {}
+  }
+  ```
 
 ## 시나리오
 
@@ -58,7 +57,7 @@ $ npm i vuex
 
 ### store 생성
 
-```jsx
+```javascript
 /* /src/store/index.js */
 import Vue from "vue";
 import Vuex from "vuex";
@@ -91,7 +90,7 @@ export default new Vuex.Store({
 - 로그인이 완료되면 사용자 정보를 `store`의 `state`에 등록한다.
   - 이때 `mutations`을 호출한다.
 
-```jsx
+```javascript
 this.$store.commit("setUsername", data.user.username);
 ```
 

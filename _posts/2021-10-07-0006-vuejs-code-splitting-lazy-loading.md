@@ -25,7 +25,7 @@ header:
 
 - `component: () => import('경로')`
 
-```jsx
+```javascript
 /* file: /src/routes/index.js */
 
 import Vue from "vue";
