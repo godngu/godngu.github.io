@@ -19,8 +19,8 @@ header:
 
 - 소스코드 품질관리
 - SonarQube 7.7
-  - https://docs.sonarqube.org/7.7/requirements/requirements/
-  - https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.7.zip
+  - [https://docs.sonarqube.org/7.7/requirements/requirements](https://docs.sonarqube.org/7.7/requirements/requirements)
+  - [https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.7.zip](https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.7.zip)
 - Open JDK 8
 - Database
   - PostgreSQL 9.3+
