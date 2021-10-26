@@ -37,6 +37,8 @@ header:
 
 ## PostgreSQL9.6 설치
 
+\> [Link](https://godngu.github.io/postgresql/installation/yum)
+
 ## SonarQube7.7 설치
 
 ### 다운로드
