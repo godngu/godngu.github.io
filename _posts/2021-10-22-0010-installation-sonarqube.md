@@ -33,7 +33,7 @@ header:
 
 ## OpenJDK8 설치
 
-\> [Link](https://godngu.github.io/sonarqube)
+\> [Link](https://godngu.github.io/openjdk8/installation)
 
 ## PostgreSQL9.6 설치
 
